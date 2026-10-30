@@ -26,7 +26,7 @@ function setupVideo(video) {
   };
   function update() {
     const playing = !video.paused && !video.ended;
-    const duration = Number.isFinite(video.duration) ? video.duration : 72;
+    const duration = Number.isFinite(video.duration) ? video.duration : 155;
     startButton.hidden = failed || (watchingWithSound && !video.muted && !video.ended);
     startButton.setAttribute('aria-label', video.ended ? 'Replay with sound from the beginning' : 'Play with sound from the beginning');
     toggle.textContent = playing ? 'Pause' : (watchingWithSound && !video.ended ? 'Resume' : 'Play');
