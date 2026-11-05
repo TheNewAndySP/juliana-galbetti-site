@@ -56,6 +56,12 @@ nav a:hover { text-decoration: underline; }
 .video-description p { margin-block: 9px; font-size: 13px; }
 .video-description a { display: inline-block; padding-block: 8px; }
 .video-error { font-size: 14px; margin-top: 18px; }
+.exhibition-section { padding-top: 72px; }
+.exhibition-section .section-heading { margin-bottom: 18px; }
+.exhibition-summary { max-width: 760px; font-size: 15px; line-height: 1.75; }
+.exhibition-summary p + p { margin-top: 14px; }
+.exhibition-press { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 12px; font-size: 11px; }
+.exhibition-press a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; }
 .work-section { padding-top: 122px; padding-bottom: 104px; }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 44px; }
 .eyebrow { font-size: 10px; text-transform: uppercase; letter-spacing: .16em; }
@@ -122,6 +128,8 @@ address a > span > span[aria-hidden] { padding-left: 15px; }
   .video-caption h2 { font-size: 13px; }
   .video-caption p { font-size: 10px; }
   .video-description { margin-top: 7px; }
+  .exhibition-section { padding-top: 48px; }
+  .exhibition-summary { font-size: 14px; }
   .work-section { padding-top: 74px; padding-bottom: 64px; }
   .section-heading { display: block; margin-bottom: 29px; }
   .section-heading h2 { margin-top: 12px; font-size: 26px; }
